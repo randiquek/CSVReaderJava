@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860bdbcd-c7f9-44b4-84fb-a76697285e52" name="Changes" comment="" />
+    <list default="true" id="860bdbcd-c7f9-44b4-84fb-a76697285e52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +30,7 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="1-issue-1-read-and-display-all-records-from-the-csv-file" />
+                <branch-info repo="$PROJECT_DIR$" source="2-issue-2-allow-users-to-filter-records-by-category" />
               </list>
             </value>
           </entry>
@@ -33,13 +39,21 @@
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2sMcdCjhbbnWfIMLQ9R4m9HQdRw" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
-    "git-widget-placeholder": "main"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "5-issue-3---ability-to-add-a-record-to-csv-file",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
