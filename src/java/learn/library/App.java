@@ -11,7 +11,7 @@ public class App {
 
         view = new View ("expense_report.csv");
 
-        //view.printAll();
-        view.printByCategory("Meals");
+        view.printAll();
+        //view.printByCategory("Meals");
     }
 }
