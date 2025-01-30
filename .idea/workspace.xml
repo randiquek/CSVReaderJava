@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="860bdbcd-c7f9-44b4-84fb-a76697285e52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/learn/library/data/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/learn/library/ui/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/data/CSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/data/CSVReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/data/expense_report.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/domain/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/domain/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/ui/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/ui/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/learn/library/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/learn/library/data/expense_report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/expense_report.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/data/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/data/Record.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/ui/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="1-issue-1-read-and-display-all-records-from-the-csv-file" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1-issue-1-read-and-display-all-records-from-the-csv-file&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rawrr\Documents\Javadev\software-developer-java-2024-12NEW\software-developer-java-2024-12\CSVReaderJava" />

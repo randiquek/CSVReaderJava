@@ -1,14 +1,17 @@
 package learn.library;
 
 import learn.library.data.CSVReader;
+import learn.library.ui.View;
 
 public class App {
     static CSVReader fileReader;
+    static View view;
 
     public static void main(String[] args) {
 
-        fileReader = new CSVReader("expense_report.csv");
-        fileReader.readCSVFile();
-        //view.printByCategory(creditCard)
+        view = new View ("expense_report.csv");
+
+        //view.printAll();
+        view.printByCategory("Meals");
     }
 }

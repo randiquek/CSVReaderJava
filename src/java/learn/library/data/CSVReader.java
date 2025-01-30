@@ -21,10 +21,10 @@ public class CSVReader {
         ArrayList<Record> records = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line = reader.readLine();
+            line = reader.readLine();
             while (line != null) {
                 //deserialize line into record object
                 records.add(deserialize(line));
-                System.out.println(line);
                 line = reader.readLine();
             }
         }catch (IOException e) {
@@ -36,7 +36,7 @@ public class CSVReader {
     private Record deserialize(String line) {
         String[] fields = line.split(DELIMITER, -1);
         if (fields.length == 5) {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
             LocalDate date = LocalDate.parse(fields[0], formatter);
             String category = fields[1];
             String name = fields[2];
