@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="c0c5a6af-9c78-45e6-8351-a6976dd800ac" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/java/learn/library/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/java/learn/library/data/expense_report.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CSVReaderJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSVReaderJava.iml" afterDir="false" />
+=======
+    <list default="true" id="163bb3fc-f1b9-4205-9b06-82db086db6c2" name="Changes" comment="">
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +31,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2sKLqu75G5v0Cg4J65MPVeV7niA" />
+=======
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2sJiWTJy0Z8KD0bq8txbnVCodJI" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< Updated upstream
     "git-widget-placeholder": "1-issue-1-read-and-display-all-records-from-the-csv-file",
     "kotlin-language-version-configured": "true"
   }
@@ -49,11 +61,26 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
+=======
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "1-issue-1-read-and-display-all-records-from-the-csv-file",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rawrr/Documents/Javadev/software-developer-java-2024-12NEW/software-developer-java-2024-12/CSVReaderJava"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CSVReaderJava" />
+>>>>>>> Stashed changes
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+<<<<<<< Updated upstream
+=======
+      <module name="CSVReaderJava" />
+>>>>>>> Stashed changes
       <option name="filePath" />
       <method v="2" />
     </configuration>
