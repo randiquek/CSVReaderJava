@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="860bdbcd-c7f9-44b4-84fb-a76697285e52" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/learn/library/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,7 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="1-issue-1-read-and-display-all-records-from-the-csv-file" />
+                <branch-info repo="$PROJECT_DIR$" source="2-issue-2-allow-users-to-filter-records-by-category" />
               </list>
             </value>
           </entry>
@@ -50,7 +52,7 @@
     "Application.App.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "5-issue-3---ability-to-add-a-record-to-csv-file",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>

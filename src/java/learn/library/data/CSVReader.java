@@ -1,10 +1,8 @@
 package learn.library.data;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -12,6 +10,7 @@ import java.util.ArrayList;
 public class CSVReader {
     private String filePath;
     private final String DELIMITER = ",";
+    private final String HEADER = "Date,Category,Description,Amount,Payment Method";
 
     public CSVReader(String filePath) {
         this.filePath = filePath;
@@ -32,6 +31,18 @@ public class CSVReader {
         }
         return records;
     }
+    public void addRecord(Record updatedRecord) {
+        ArrayList<Record> records = readCSVFile();
+        records.add(updatedRecord);
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
+            writer.println(HEADER);
+            for(Record record : records) {
+                writer.println(serialize(record));
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     private Record deserialize(String line) {
         String[] fields = line.split(DELIMITER, -1);
@@ -46,5 +57,14 @@ public class CSVReader {
             return new Record(date, category, name, cost, payment);
         }
         return null;
+    }
+
+    private String serialize(Record record) {
+        return String.format("%s,%s,%s,%s,%s",
+                record.getDate(),
+                record.getCategory(),
+                record.getName(),
+                record.getCost().setScale(2, RoundingMode.HALF_UP),
+                record.getPayment());
     }
 }
