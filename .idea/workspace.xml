@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <list default="true" id="c0c5a6af-9c78-45e6-8351-a6976dd800ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/learn/library/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/learn/library/data/expense_report.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CSVReaderJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSVReaderJava.iml" afterDir="false" />
-=======
-    <list default="true" id="163bb3fc-f1b9-4205-9b06-82db086db6c2" name="Changes" comment="">
->>>>>>> Stashed changes
-=======
-    <list default="true" id="163bb3fc-f1b9-4205-9b06-82db086db6c2" name="Changes" comment="">
->>>>>>> Stashed changes
-=======
-    <list default="true" id="163bb3fc-f1b9-4205-9b06-82db086db6c2" name="Changes" comment="">
->>>>>>> Stashed changes
+    <list default="true" id="860bdbcd-c7f9-44b4-84fb-a76697285e52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/java/learn/library/data/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/learn/library/ui/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/data/CSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/data/CSVReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSVReaderJava/learn/library/data/expense_report.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/data/CSVReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/data/expense_report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/expense_report.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/learn/library/domain/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,109 +28,22 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="2sKLqu75G5v0Cg4J65MPVeV7niA" />
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2sJiWTJy0Z8KD0bq8txbnVCodJI" />
->>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "git-widget-placeholder": "1-issue-1-read-and-display-all-records-from-the-csv-file",
-    "kotlin-language-version-configured": "true"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rawrr\Documents\Javadev\software-developer-java-2024-12NEW\software-developer-java-2024-12\CSVReaderJava\src\java\learn\library\data" />
+      <recent name="C:\Users\rawrr\Documents\Javadev\software-developer-java-2024-12NEW\software-developer-java-2024-12\CSVReaderJava" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-=======
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "1-issue-1-read-and-display-all-records-from-the-csv-file",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rawrr/Documents/Javadev/software-developer-java-2024-12NEW/software-developer-java-2024-12/CSVReaderJava"
-  }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="CSVReaderJava" />
->>>>>>> Stashed changes
-=======
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "1-issue-1-read-and-display-all-records-from-the-csv-file",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rawrr/Documents/Javadev/software-developer-java-2024-12NEW/software-developer-java-2024-12/CSVReaderJava"
-  }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="CSVReaderJava" />
->>>>>>> Stashed changes
-=======
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "1-issue-1-read-and-display-all-records-from-the-csv-file",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rawrr/Documents/Javadev/software-developer-java-2024-12NEW/software-developer-java-2024-12/CSVReaderJava"
-  }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="CSVReaderJava" />
->>>>>>> Stashed changes
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-      <module name="CSVReaderJava" />
->>>>>>> Stashed changes
-=======
-      <module name="CSVReaderJava" />
->>>>>>> Stashed changes
-=======
-      <module name="CSVReaderJava" />
->>>>>>> Stashed changes
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c0c5a6af-9c78-45e6-8351-a6976dd800ac" name="Changes" comment="" />
-      <created>1738188386849</created>
+      <changelist id="860bdbcd-c7f9-44b4-84fb-a76697285e52" name="Changes" comment="" />
+      <created>1738251466025</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1738188386849</updated>
+      <updated>1738251466025</updated>
     </task>
     <servers />
   </component>
