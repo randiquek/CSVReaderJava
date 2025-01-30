@@ -1,6 +1,7 @@
 package learn.library.data;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 
 public class Record {
@@ -63,13 +64,12 @@ public class Record {
 
     @Override
     public String toString() {
-        return "Record{" +
-                "date=" + date + // month/ date/ year
-                ", cost=" + cost + //can be formatted as currency
-                ", name='" + name + '\'' +
-                ", category='" + category + '\'' +
-                ", payment='" + payment + '\'' +
-                '}';
+        BigDecimal scaledCost = cost.setScale(2, RoundingMode.HALF_UP);
+        return "Date: " + date + // month/ date/ year
+                "| Cost: " + "$" + scaledCost + //can be formatted as currency
+                "| Name: " + name +
+                "| Category: " + category +
+                "| Payment: " + payment ;
     }
 
 }
